@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
 .json-links-row {
   display: flex;
   gap: 18px;
@@ -596,9 +598,6 @@
     opacity: 0;
   }
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
 
 body {
   background: #1e1e1e;
