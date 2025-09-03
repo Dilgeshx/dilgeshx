@@ -181,6 +181,14 @@
 .json-link-inline:hover {
   color: #bfe6ff;
 }
+.json-content a {
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.json-content a:focus, .json-content a:hover {
+  color: #9fd6ff;
+}
 .json-key {
   color: #ff79c6;
 }

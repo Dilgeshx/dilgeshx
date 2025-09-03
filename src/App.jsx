@@ -9,8 +9,8 @@ const jsonData = {
   name: "Dilgeş Sarıbulak",
   title: "Frontend Developer",
   aboutMe: "Hey, I’m Dilgeş Sarıbulak! 👋I’m a frontend developer who’s always curious about modern web technologies. I enjoy building clean, user-friendly interfaces and especially love working with React and Next.js. 🚀Whether it’s collaborating on an exciting project or just exchanging ideas, feel free to reach out — I’m always open to connecting!",
-  github: "https://github.com/dilges",
-  linkedin: "https://www.linkedin.com/in/dilges-saribulak/"
+  github: "https://github.com/Dilgeshx",
+  linkedin: "https://www.linkedin.com/in/dilge%C5%9F-sar%C4%B1bulak-876481236/"
 };
 
 const jsonString = JSON.stringify(jsonData, null, 2);
@@ -22,7 +22,8 @@ function colorizeJson(json) {
     .replace(/: ("([^"]+)")/g, (match, quoted, inner) => {
       // quoted = "...", inner = ...
       if (/^https?:\/\//.test(inner)) {
-        return `: <a href="${inner}" target="_blank" rel="noopener noreferrer" class="json-link-inline">"${inner}"</a>`;
+        // show the URL without surrounding quotes so the anchor is clean and clickable
+        return `: <a href="${inner}" target="_blank" rel="noopener noreferrer" class="json-link-inline">${inner}</a>`;
       }
       return `: <span class="json-string">${quoted}</span>`;
     })
