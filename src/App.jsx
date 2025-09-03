@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react';
 const jsonData = {
   name: "Dilgeş Sarıbulak",
   title: "Frontend Developer",
-  aboutMe: "Merhaba! Ben Dilgeş Sarıbulak. Yazılım ve teknolojiye ilgi duyuyorum.",
+  aboutMe: "Hey, I’m Dilgeş Sarıbulak! 👋I’m a frontend developer who’s always curious about modern web technologies. I enjoy building clean, user-friendly interfaces and especially love working with React and Next.js. 🚀Whether it’s collaborating on an exciting project or just exchanging ideas, feel free to reach out — I’m always open to connecting!",
   github: "https://github.com/dilges",
   linkedin: "https://www.linkedin.com/in/dilges-saribulak/"
 };
